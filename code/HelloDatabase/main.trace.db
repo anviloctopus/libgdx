@@ -1,0 +1,32 @@
+2017-03-07 10:36:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PLAYERS" already exists; SQL statement:
+CREATE TABLE players (id IDENTITY, name VARCHAR(100), is_alive BOOLEAN, score INT, health DOUBLE) [42101-191]
+2017-03-07 10:36:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PLAYERS" already exists; SQL statement:
+CREATE TABLE players (id IDENTITY, name VARCHAR(100), is_alive BOOLEAN, score INT, health DOUBLE) [42101-191]
+2017-03-07 10:41:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE PLAYERS (ID IDENTITY, NAME VARCHAR(100), IS_ALIVE BOOLEAN, SCORE INT, HEALTH DOUBLE)
+
+                                                          
+
+SELECT[*] * FROM PLAYERS WHERE ID = 1 "; SQL statement:
+CREATE TABLE players (id IDENTITY, name VARCHAR(100), is_alive BOOLEAN, score INT, health DOUBLE)
+
+//INSERT INTO players VALUES (NULL, 'Bob', true, 0, 100.0)
+
+SELECT * FROM players WHERE id = 1 [42000-191]
+2017-03-07 10:49:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "                                                                                                   
+                    
+                                                          
+SELECT * FROM PLAYERS WHERE ID = 1
+                                                 
+
+DELETE[*] FROM PLAYERS WHERE ID = 1 "; SQL statement:
+//CREATE TABLE players (id IDENTITY, name VARCHAR(100), is_alive BOOLEAN, score INT, health DOUBLE)
+//DROP TABLE players
+//INSERT INTO players VALUES (NULL, 'Bob', true, 0, 100.0)
+SELECT * FROM players WHERE id = 1
+//UPDATE players SET is_alive = FALSE WHERE id =1
+
+DELETE FROM players WHERE id = 1 [42000-191]

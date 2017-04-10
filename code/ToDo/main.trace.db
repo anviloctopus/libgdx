@@ -1,0 +1,6 @@
+2017-03-07 13:34:12 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "PLAYERS" not found; SQL statement:
+SELECT * FROM players [42102-192]
+2017-03-07 13:34:15 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "PLAYERS" not found; SQL statement:
+SELECT * FROM players [42102-192]

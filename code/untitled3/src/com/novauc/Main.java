@@ -1,0 +1,25 @@
+package com.novauc;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+class HashMapDemo {
+    public static void main(String args[]) {
+
+        HashMap<String, Double> hm = new HashMap<String, Double>();
+
+        hm.put("A", new Double(3.34));
+        hm.put("B", new Double(1.22));
+        hm.put("C", new Double(1.00));
+        hm.put("D", new Double(9.22));
+        hm.put("E", new Double(-19.08));
+
+
+
+        HashMap<String, Double> hm = new HashMap<String, Double>();
+        System.out.println(hm.get("A"));
+    }
+}
+
+
